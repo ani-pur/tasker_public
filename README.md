@@ -3,6 +3,8 @@ Author: Anirudh Purohit
 # What is this? 
 This is a simple (and horrible) locally hosted task-manager app built using the **Flask** python framework and some AI generated UI ~~because css is terrible~~ as I have not yet learned css.
 
+` Running main.py will host the app at localhost. `
+
 ## User Authentication: 
 > User profiles are handled on the backend (hasher.py provides CRUD operations)
 > 
@@ -15,11 +17,12 @@ This is a simple (and horrible) locally hosted task-manager app built using the 
 > Tasks are currently sorted by ``` Earliest Due - Latest Due```
 
 
-## Deployment and Architecture:
+## Personal Deployment and Architecture:
 
 - Containerized with Docker
-- Reverse proxied through Cloudflare using [Cloudflared](https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/)
+- Reverse proxied to the open internet through Cloudflare using [Cloudflared](https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/)
 - UI auto-switches between mobile and desktop based on User-Agent headers.
+- Automated to start on boot with some batch scripting (NOT included in this repo)
 
 ## Screenshots:
 ![image](https://github.com/user-attachments/assets/2e90706c-0b1d-4adc-93f3-25b578a86598)
