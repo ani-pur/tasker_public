@@ -1,7 +1,7 @@
 Author: Anirudh Purohit
 
 # What is this? 
-This is a simple (and horrible) locally hosted task-manager app built using the **Flask** python framework and some AI generated UI as I have not yet learned css.
+This is a simple locally hosted task-manager app built using the **Flask** python framework and some AI generated UI as I have not yet learned css.
 
 ` Running main.py will host the app at localhost. `
 
