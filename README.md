@@ -20,7 +20,7 @@ This is a simple (and horrible) locally hosted task-manager app built using the 
 ## Personal Deployment and Architecture:
 
 - Containerized with Docker
-- Reverse proxied to the open internet through Cloudflare using [Cloudflared](https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/) (NOT         included in this repo)
+- Reverse proxied to the web through Cloudflare using [Cloudflared](https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/) (NOT         included in this repo)
 - UI auto-switches between mobile and desktop based on User-Agent headers.
 - Automated to start on boot with some batch scripting (NOT included in this repo)
 
