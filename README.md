@@ -1,7 +1,7 @@
 Author: Anirudh Purohit
 
 # What is this? 
-This is a simple (and horrible) locally hosted task-manager app built using the **Flask** python framework and some AI generated UI ~~because css is terrible~~ as I have not yet learned css.
+This is a simple (and horrible) locally hosted task-manager app built using the **Flask** python framework and some AI generated UI as I have not yet learned css.
 
 ` Running main.py will host the app at localhost. `
 
@@ -12,9 +12,9 @@ This is a simple (and horrible) locally hosted task-manager app built using the 
 > 
 > Once a user is added, they can log in at ``` 127.0.0.1 ``` from their browser.
 > 
-> App is "scaleable" ~~up to 10 users before my computer crashes~~ and supports multiple users with individual task storage, no overlap.
+> App is "scaleable" and supports multiple users with individual task storage, no overlap.
 > 
-> Tasks are currently sorted by ``` Earliest Due - Latest Due```
+> Tasks are currently sorted by ``` Earliest Due - Latest Due```, will add sorting functionality soon.
 
 
 ## Personal Deployment and Architecture:
@@ -29,4 +29,5 @@ This is a simple (and horrible) locally hosted task-manager app built using the 
 
 ![image](https://github.com/user-attachments/assets/4fb92ee7-39b6-47af-83cd-d63723697f12)
 
-![image](https://github.com/user-attachments/assets/7e854af8-19e0-4eac-9da6-5c2b17352d7f)
+![image](https://github.com/user-attachments/assets/aaad88f1-df40-4412-867e-e8a33d8c9dc3)
+
