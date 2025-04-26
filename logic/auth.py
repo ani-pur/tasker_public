@@ -3,7 +3,7 @@ import werkzeug.security
 
 def load_users():
     with open('users.json','r') as file:
-        return json.load(file) #loads file contents into cache i think
+        return json.load(file) 
 
 def verify_login(input_pass):
     users=load_users() #contents in cache assigned to variable 
