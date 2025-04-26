@@ -18,6 +18,6 @@ if __name__=="__main__":
     user=verify_login(input_pass) #user variable is assigned the value that is returned by verify_login, there's no error handling gg
 
     if user:
-        print(f"bismillah found a match \n welcome, {user}")
+        print(f"found a match \n welcome, {user}")
     else:
-        print("404: no match found or something broke")
+        print("no match found or something broke")
