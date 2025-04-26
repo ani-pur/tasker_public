@@ -15,7 +15,7 @@ def verify_login(input_pass):
 if __name__=="__main__":
     # prompt user to input password
     input_pass=input("enter password: ").strip()
-    user=verify_login(input_pass) #user variable is assigned the value that is returned by verify_login, there's no error handling gg
+    user=verify_login(input_pass) #user variable is assigned the value that is returned by verify_login
 
     if user:
         print(f"found a match \n welcome, {user}")
