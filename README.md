@@ -27,7 +27,7 @@ This is a simple locally hosted task-manager app built using the **Flask** pytho
 ## Screenshots:
 ![image](https://github.com/user-attachments/assets/2e90706c-0b1d-4adc-93f3-25b578a86598)
 
-![image](https://github.com/user-attachments/assets/4fb92ee7-39b6-47af-83cd-d63723697f12)
+![image](https://github.com/user-attachments/assets/da821e57-0aec-49aa-807b-e2842bb6fec0)
 
 ![image](https://github.com/user-attachments/assets/aaad88f1-df40-4412-867e-e8a33d8c9dc3)
 
