@@ -1,6 +1,6 @@
 from flask import Flask, render_template, request, redirect, url_for, session, jsonify
-import auth
-import tasks        # 'from logic import' if not running locally
+from logic import auth
+from logic import tasks        # 'from logic import' if not running locally
 import secrets
 
 
@@ -19,11 +19,7 @@ def login():
             error = "Invalid password. Please try again."
     return render_template('login.html', error=error)
 
-def is_mobile():
-    """
-    Detects if the incoming request is from a mobile device
-    by checking the User-Agent header for common mobile keywords.
-    """
+def is_mobile():        # Detects if the incoming request is from a mobile device by checking the User-Agent header for common mobile keywords.
     user_agent = request.headers.get('User-Agent', '').lower()
     mobile_keywords = ['iphone', 'android', 'mobile']
     return any(keyword in user_agent for keyword in mobile_keywords)
