@@ -16,6 +16,7 @@ This is a simple locally hosted task-manager app built using the **Flask** pytho
 
 ## Planned updates:
 > ~~Visual Overhaul (complete)~~
+> 
 > Migrate to database for task storage (soon)
 
 
