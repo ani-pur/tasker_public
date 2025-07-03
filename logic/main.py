@@ -55,8 +55,6 @@ def handle_tasks():
         return jsonify({'error': 'Not authenticated'}), 401
     username = session['username']
     if request.method == 'GET':
-        #idk how this works, idk why it works but get rid of it and PLEASE
-        # FOR THE LOVE OF GOD, SWITCH TO A DB, IT'LL MAKE THINGS SO MUCH EASIER LOL THIS IS WASTING TIME
         tasks_list = tasks.get_all_tasks(username, 'asc')
         return jsonify(tasks_list)
     elif request.method == 'POST':
