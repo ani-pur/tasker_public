@@ -3,7 +3,7 @@ import werkzeug.security
 import os
 import json
 
-def hasher(name, password):     # runs user password through hasher (no salting and all that yet) and saves name:hash pair in users.json for authentication
+def hasher(name, password):     
 
     hashed_pw = werkzeug.security.generate_password_hash(password)  
     if not os.path.exists('users.json'):
