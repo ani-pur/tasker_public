@@ -16,7 +16,6 @@ It uses the OpenAI API to turn user input into structured tasks -> saves them to
 
 ![image](https://github.com/user-attachments/assets/4fb92ee7-39b6-47af-83cd-d63723697f12)
 
-![image](https://github.com/user-attachments/assets/7e854af8-19e0-4eac-9da6-5c2b17352d7f)
 
 ## UPDATED Screenshots (v2):
 ![image](https://github.com/user-attachments/assets/5c4302be-927e-46ac-89e5-09f6022c153f)
