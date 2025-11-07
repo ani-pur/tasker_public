@@ -1,7 +1,7 @@
 Author: Anirudh Purohit
 
 This is a simple locally-hosted Flask app for managing tasks.
-It uses the OpenAI API to turn user input into structured tasks -> saves them to a local database ~~-> syncs them with Google Calendar (if linked)~~ (not implemented yet)
+It uses the OpenAI API to turn freeform natural-language user input into structured tasks -> saves them to a local database ~~-> syncs them with Google Calendar (if linked)~~ (not implemented yet)
 
  
 ## Deployment and Architecture:
